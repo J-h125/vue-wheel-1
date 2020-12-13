@@ -22,7 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abbe0951-0bff-4624-8145-864cf2cb1bc8" name="Default Changelist" comment="将svg代码整理到icon.vue">
+    <list default="true" id="abbe0951-0bff-4624-8145-864cf2cb1bc8" name="Default Changelist" comment="更新button里面icon的样式">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607780512389</updated>
-      <workItem from="1607780513623" duration="19621000" />
+      <workItem from="1607780513623" duration="20680000" />
     </task>
     <task id="LOCAL-00001" summary="按钮基本样式完成">
       <created>1607844002953</created>
@@ -106,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607866785671</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="更新button里面icon的样式">
+      <created>1607866920380</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607866920380</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,7 +139,8 @@
     <MESSAGE value="添加icon和iconPosition属性" />
     <MESSAGE value="验证iconPosition为left或right中的一个" />
     <MESSAGE value="将svg代码整理到icon.vue" />
-    <option name="LAST_COMMIT_MESSAGE" value="将svg代码整理到icon.vue" />
+    <MESSAGE value="更新button里面icon的样式" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新button里面icon的样式" />
   </component>
   <component name="WindowStateProjectService">
     <state x="423" y="114" key="SettingsEditor" timestamp="1607839395376">
