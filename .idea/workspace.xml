@@ -22,12 +22,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abbe0951-0bff-4624-8145-864cf2cb1bc8" name="Default Changelist" comment="安装parcel">
-      <change afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/button.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/button.js" beforeDir="false" />
+    <list default="true" id="abbe0951-0bff-4624-8145-864cf2cb1bc8" name="Default Changelist" comment="加入button，将button改为单文件组件">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propDebugger" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -65,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607780512389</updated>
-      <workItem from="1607780513623" duration="7460000" />
+      <workItem from="1607780513623" duration="16450000" />
     </task>
     <task id="LOCAL-00001" summary="按钮基本样式完成">
       <created>1607844002953</created>
@@ -81,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607844683170</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="加入button，将button改为单文件组件">
+      <created>1607848008714</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607848008714</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,16 +109,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="按钮基本样式完成" />
     <MESSAGE value="安装parcel" />
-    <option name="LAST_COMMIT_MESSAGE" value="安装parcel" />
+    <MESSAGE value="加入button，将button改为单文件组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="加入button，将button改为单文件组件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="423" y="114" key="SettingsEditor" timestamp="1607839395376">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="423" y="114" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1607839395376" />
-    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1607839380869">
+    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1607859158051">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1607839380869" />
+    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1607859158051" />
   </component>
 </project>
