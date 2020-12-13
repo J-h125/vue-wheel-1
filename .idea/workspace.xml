@@ -22,11 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abbe0951-0bff-4624-8145-864cf2cb1bc8" name="Default Changelist" comment="验证iconPosition为left或right中的一个">
-      <change afterPath="$PROJECT_DIR$/src/icon.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+    <list default="true" id="abbe0951-0bff-4624-8145-864cf2cb1bc8" name="Default Changelist" comment="将svg代码整理到icon.vue">
       <change beforePath="$PROJECT_DIR$/src/button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607780512389</updated>
-      <workItem from="1607780513623" duration="19425000" />
+      <workItem from="1607780513623" duration="19621000" />
     </task>
     <task id="LOCAL-00001" summary="按钮基本样式完成">
       <created>1607844002953</created>
@@ -103,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607864709555</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="将svg代码整理到icon.vue">
+      <created>1607866785671</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607866785671</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,7 +129,8 @@
     <MESSAGE value="加入button，将button改为单文件组件" />
     <MESSAGE value="添加icon和iconPosition属性" />
     <MESSAGE value="验证iconPosition为left或right中的一个" />
-    <option name="LAST_COMMIT_MESSAGE" value="验证iconPosition为left或right中的一个" />
+    <MESSAGE value="将svg代码整理到icon.vue" />
+    <option name="LAST_COMMIT_MESSAGE" value="将svg代码整理到icon.vue" />
   </component>
   <component name="WindowStateProjectService">
     <state x="423" y="114" key="SettingsEditor" timestamp="1607839395376">
