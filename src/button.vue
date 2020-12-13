@@ -1,8 +1,6 @@
 <template>
   <button class="g-button" :class="{[`icon-${iconPosition}`]:true}">
-    <svg v-if="icon" class="icon">
-      <use :xlink:href="`#icon-${icon}`"></use>
-    </svg>
+    <g-icon v-if="icon" :name="icon"></g-icon>
     <div class="content">
     <slot></slot>
     </div>
@@ -16,7 +14,7 @@ export default {
     iconPosition:{
       type:String,
       default:'left',
-      validator(value){
+      validator(value){  //自定义函数验证
         //return value === 'left' || value === 'right';
         if(value!=='left'&&value!=='right'){
           return false
