@@ -10,7 +10,22 @@
 </template>
 <script>
 export default {
-  props:['icon','iconPosition']
+  //props:['icon','iconPosition']
+  props:{
+    icon:{},
+    iconPosition:{
+      type:String,
+      default:'left',
+      validator(value){
+        //return value === 'left' || value === 'right';
+        if(value!=='left'&&value!=='right'){
+          return false
+        }else{
+          return true
+        }
+      }
+    }
+  }
 }
 </script>
 <style lang="scss">
@@ -35,11 +50,11 @@ background-color: var(--button-active-bg);
 outline:none ;
 }
   > .content{order:2}
-  > .icon{order:1; margin-right: .3em;}
+  > .icon{order:1; margin-right: 0.3em;}
 
   &.icon-right{
     > .content{order:1}
-    > .icon{order:2 ;margin-left: .3em}
+    > .icon{order:2 ;margin-right:0; margin-left: 0.3em}
 
   }
 }
