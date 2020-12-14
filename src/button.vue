@@ -47,13 +47,13 @@ export default {
   justify-content: center;
   align-items: center;
   vertical-align: middle;
-  & :hover {
+  &:hover {
   border-color:var(--border-color-hover);
 }
-& :active{
+  &:active{  //点住不放
 background-color: var(--button-active-bg);
 }
-& :focus{
+  &:focus{
 outline:none ;
 }
   > .content{order:2}

@@ -22,7 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abbe0951-0bff-4624-8145-864cf2cb1bc8" name="Default Changelist" comment="添加加载loading图标">
+    <list default="true" id="abbe0951-0bff-4624-8145-864cf2cb1bc8" name="Default Changelist" comment="添加click事件">
+      <change afterPath="$PROJECT_DIR$/src/button-group.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
@@ -66,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607780512389</updated>
       <workItem from="1607780513623" duration="21350000" />
-      <workItem from="1607913859642" duration="2680000" />
+      <workItem from="1607913859642" duration="7179000" />
     </task>
     <task id="LOCAL-00001" summary="按钮基本样式完成">
       <created>1607844002953</created>
@@ -124,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607867989481</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="添加click事件">
+      <created>1607919757742</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1607919757742</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,9 +159,14 @@
     <MESSAGE value="将svg代码整理到icon.vue" />
     <MESSAGE value="更新button里面icon的样式" />
     <MESSAGE value="添加加载loading图标" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加加载loading图标" />
+    <MESSAGE value="添加click事件" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加click事件" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="395" y="91" key="#Inspections" timestamp="1607920209332">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="395" y="91" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1607920209332" />
     <state x="423" y="114" key="SettingsEditor" timestamp="1607839395376">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
