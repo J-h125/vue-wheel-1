@@ -22,9 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abbe0951-0bff-4624-8145-864cf2cb1bc8" name="Default Changelist" comment="更新button里面icon的样式">
+    <list default="true" id="abbe0951-0bff-4624-8145-864cf2cb1bc8" name="Default Changelist" comment="添加加载loading图标">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +65,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607780512389</updated>
-      <workItem from="1607780513623" duration="20680000" />
+      <workItem from="1607780513623" duration="21350000" />
+      <workItem from="1607913859642" duration="2680000" />
     </task>
     <task id="LOCAL-00001" summary="按钮基本样式完成">
       <created>1607844002953</created>
@@ -115,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607866920380</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="添加加载loading图标">
+      <created>1607867989481</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1607867989481</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +140,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="按钮基本样式完成" />
@@ -140,16 +150,17 @@
     <MESSAGE value="验证iconPosition为left或right中的一个" />
     <MESSAGE value="将svg代码整理到icon.vue" />
     <MESSAGE value="更新button里面icon的样式" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新button里面icon的样式" />
+    <MESSAGE value="添加加载loading图标" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加加载loading图标" />
   </component>
   <component name="WindowStateProjectService">
     <state x="423" y="114" key="SettingsEditor" timestamp="1607839395376">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="423" y="114" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1607839395376" />
-    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1607859158051">
+    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1607919507026">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1607859158051" />
+    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1607919507026" />
   </component>
 </project>
