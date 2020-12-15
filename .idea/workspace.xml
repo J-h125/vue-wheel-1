@@ -22,10 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abbe0951-0bff-4624-8145-864cf2cb1bc8" name="Default Changelist" comment="使用chai.spy监听回调函数">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-    </list>
+    <list default="true" id="abbe0951-0bff-4624-8145-864cf2cb1bc8" name="Default Changelist" comment="使用chai.spy监听回调函数" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607780512389</updated>
       <workItem from="1607780513623" duration="21350000" />
-      <workItem from="1607913859642" duration="26709000" />
+      <workItem from="1607913859642" duration="26840000" />
     </task>
     <task id="LOCAL-00001" summary="按钮基本样式完成">
       <created>1607844002953</created>
