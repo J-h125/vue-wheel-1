@@ -16,6 +16,7 @@
 import Icon from './icon'
 
 export default {
+  name:'GuluButton',
   components:{
     'g-icon':Icon
   },
@@ -40,7 +41,7 @@ export default {
   }
 }
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
 .g-button{
   font-size: var(--font-size);
   height: var(--button-height);
