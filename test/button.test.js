@@ -1,3 +1,5 @@
+import Input from "../src/input";
+
 const expect = chai.expect;
 import Vue from 'vue'
 import Button from '../src/button'
@@ -75,5 +77,18 @@ describe('Button', () => {
         vm.$el.click()
         expect(callback).to.have.been.called
 
+    })
+    it('接收 error',()=>{
+        const Constructor = Vue.extend(Input)
+        const vm = new Constructor({
+            propsData:{
+                error: '错了'
+            }
+        }).$mount()
+        const useElement = vm.$el.querySelector('use')
+        expect(useElement.getAttribute('xlink:href')).to.eq('#icon-error')
+        const errorMessage = vm.$el.querySelector('.errorMessage')
+        expect(errorMessage.innerHTML).to.eq('错了')
+        vm.$destroy()
     })
 })

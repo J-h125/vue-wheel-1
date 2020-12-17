@@ -38,7 +38,8 @@
     <g-input value="AA" disabled></g-input>
     <g-input value="BB" readonly></g-input>
     <g-input value="CC" error="不少于两个字"></g-input>
-    <g-input value="DD"></g-input>
+    <g-input value="DD" @click="inputChange"></g-input>
+    <g-input value="EE"></g-input>
     <div style="margin: 20px">
         <g-button :loading="loading1" @click="loading1=!loading1">
             按钮
