@@ -35,7 +35,8 @@
 </head>
 <body>
 <div id="app">
-    <g-input value="AA" disabled></g-input>
+    <g-input value="AA" v-model="message"></g-input>
+        <p>{{message}}</p>
     <g-input value="BB" readonly></g-input>
     <g-input value="CC" error="不少于两个字"></g-input>
     <g-input value="DD" @click="inputChange"></g-input>
