@@ -16,6 +16,7 @@ export default {
     offset: {
       type: [Number, String]
     },
+
   },
   data(){
     return{
@@ -39,8 +40,6 @@ export default {
 
 <style lang="scss" scoped>
 .col {
-
-  width: 50%;
 
   //border: 1px solid red;
 

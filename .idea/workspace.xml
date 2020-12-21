@@ -22,8 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abbe0951-0bff-4624-8145-864cf2cb1bc8" name="Default Changelist" comment="基本实现row和col的功能">
+    <list default="true" id="abbe0951-0bff-4624-8145-864cf2cb1bc8" name="Default Changelist" comment="重构row 和 col">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/col.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/col.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/row.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/row.vue" afterDir="false" />
     </list>
@@ -68,7 +69,7 @@
       <workItem from="1607780513623" duration="21350000" />
       <workItem from="1607913859642" duration="29431000" />
       <workItem from="1608086560380" duration="5493000" />
-      <workItem from="1608257947750" duration="20272000" />
+      <workItem from="1608257947750" duration="26267000" />
     </task>
     <task id="LOCAL-00001" summary="按钮基本样式完成">
       <created>1607844002953</created>
@@ -196,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608464878978</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="重构row 和 col">
+      <created>1608469853460</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1608469853460</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,7 +251,8 @@
     <MESSAGE value="让input支持 v-model双向绑定" />
     <MESSAGE value="row和col大概完成" />
     <MESSAGE value="基本实现row和col的功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="基本实现row和col的功能" />
+    <MESSAGE value="重构row 和 col" />
+    <option name="LAST_COMMIT_MESSAGE" value="重构row 和 col" />
   </component>
   <component name="WindowStateProjectService">
     <state x="395" y="91" key="#Inspections" timestamp="1607920209332">
