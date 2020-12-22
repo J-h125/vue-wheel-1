@@ -47,41 +47,36 @@
 </head>
 <body>
 <div id="app">
-    <g-row class="topbar">
-        <g-col class="demobox" span="9">
-            <g-row align="left">
-                <g-col>1</g-col>
-                <g-col>2</g-col>
-                <g-col>3</g-col>
-                <g-col>4</g-col>
-            </g-row>
-        </g-col>
-        <g-col class="demobox" span="15">
-            <g-row align="right">
-                <g-col>1</g-col>
-                <g-col>2</g-col>
-                <g-col>3</g-col>
-                <g-col>4</g-col>
-                <g-col>5</g-col>
-                <g-col>6</g-col>
-                <g-col>7</g-col>
-            </g-row>
-        </g-col>
-    </g-row>
-    <g-row class="search">
-        <g-col class="demobox" span="4">
-            <g-row align="center">
-                <g-col>
-                    <div class="logoWrapper">
-                        <img class="logo"
-                             src="https://gw.alicdn.com/imgextra/i3/O1CN01uRz3de23mzWofmPYX_!!6000000007299-2-tps-143-59.png">
-                    </div>
-                </g-col>
-            </g-row>
-        </g-col>
-        <g-col class="demobox" span="14"></g-col>
-        <g-col class="demobox" span="6"></g-col>
-    </g-row>
+   <g-row gutter="20">
+       <g-col span="2"
+              :phone="{span:12}"
+              :ipad="{span:8}"
+              :narrow-pc="{span:4}"
+              :pc="{span:2}"
+              :wide-pc="{span:1}"
+       >2</g-col>
+       <g-col span="20"
+              :phone="{span:12, offset:0}"
+              :ipad="{span:16}"
+              :narrow-pc="{span:20}"
+              :pc="{span:22}"
+              :wide-pc="{span:23}"
+       >20</g-col>
+   </g-row>
+<!--    <g-row class="search">-->
+<!--        <g-col class="demobox" span="4">-->
+<!--            <g-row align="center">-->
+<!--                <g-col>-->
+<!--                    <div class="logoWrapper">-->
+<!--                        <img class="logo"-->
+<!--                             src="https://gw.alicdn.com/imgextra/i3/O1CN01uRz3de23mzWofmPYX_!!6000000007299-2-tps-143-59.png">-->
+<!--                    </div>-->
+<!--                </g-col>-->
+<!--            </g-row>-->
+<!--        </g-col>-->
+<!--        <g-col class="demobox" span="14"></g-col>-->
+<!--        <g-col class="demobox" span="6"></g-col>-->
+<!--    </g-row>-->
     <!--    <div style="border: 1px solid black">-->
     <!--        <g-row gutter="20">-->
     <!--            <g-col >1</g-col>-->
