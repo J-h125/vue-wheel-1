@@ -52,5 +52,6 @@ export default {
   &.align-center{
     justify-content: center;
   }
+  flex-wrap: wrap;
 }
 </style>

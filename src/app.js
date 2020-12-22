@@ -25,7 +25,7 @@ new Vue({
         setTimeout(()=>{
             let event = new Event('change');
             let inputElement = this.$el.querySelector('input')
-            inputElement.dispatchEvent(event)
+           // inputElement.dispatchEvent(event)
         },3000)
     },
     methods:{

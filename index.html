@@ -43,23 +43,22 @@
         .logoWrapper {
             padding: 10px;
         }
+        .demo{
+            background: grey;
+            border:1px solid red;
+            height: 100px;
+        }
     </style>
 </head>
 <body>
 <div id="app">
-   <g-row gutter="20">
+   <g-row >
        <g-col span="24"
-              :ipad="{span:8}"
-              :narrow-pc="{span:4}"
-              :pc="{span:2}"
-              :wide-pc="{span:1}"
-       >2</g-col>
-       <g-col span="24"
-              :ipad="{span:16}"
-              :narrow-pc="{span:20}"
-              :pc="{span:22}"
-              :wide-pc="{span:23}"
-       >20</g-col>
+              :ipad="{span:12}"
+              :narrow-pc="{span:8}"
+       ><div class="demo"></div></g-col>
+
+
    </g-row>
 <!--    <g-row class="search">-->
 <!--        <g-col class="demobox" span="4">-->
