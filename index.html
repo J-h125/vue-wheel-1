@@ -33,23 +33,11 @@
             font-size: var(--font-size);
         }
     </style>
-    <style>
-        .demo{
-            border:1px solid red;
-            min-height: 100px;
-        }
-    </style>
+
 </head>
 <body>
 <div id="app">
-<g-layout style="height:100vh">
-    <g-header class="demo">header</g-header>
-    <g-layout>
-        <g-sider class="demo">sider</g-sider>
-        <g-content class="demo">content</g-content>
-    </g-layout>
-    <g-footer class="demo">footer</g-footer>
-</g-layout>
+<button @click="showToast">click me</button>
 
 </div>
 
