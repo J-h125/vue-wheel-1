@@ -8,10 +8,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abbe0951-0bff-4624-8145-864cf2cb1bc8" name="Default Changelist" comment="实现了只能有一个toast的功能">
+    <list default="true" id="abbe0951-0bff-4624-8145-864cf2cb1bc8" name="Default Changelist" comment="实现进入动画">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/plugin.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/toast.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/toast.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +42,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="settings.editor.selected.configurable" value="copyright.filetypes.CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -58,7 +58,7 @@
       <workItem from="1608086560380" duration="5493000" />
       <workItem from="1608257947750" duration="32724000" />
       <workItem from="1608719917328" duration="15489000" />
-      <workItem from="1608869100958" duration="6531000" />
+      <workItem from="1608869100958" duration="8246000" />
     </task>
     <task id="LOCAL-00001" summary="按钮基本样式完成">
       <created>1607844002953</created>
@@ -270,7 +270,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608875802184</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="解决currentToast的一个bug">
+      <created>1608878635209</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1608878635209</updated>
+    </task>
+    <task id="LOCAL-00032" summary="实现进入动画">
+      <created>1608878674521</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1608878674521</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,8 +350,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="验证iconPosition为left或right中的一个" />
-    <MESSAGE value="将svg代码整理到icon.vue" />
     <MESSAGE value="更新button里面icon的样式" />
     <MESSAGE value="添加加载loading图标" />
     <MESSAGE value="添加click事件" />
@@ -361,7 +373,9 @@
     <MESSAGE value="实现 autoClose closeButton enableHtml 多行文字 等功能" />
     <MESSAGE value="实现position: top/bottom/middle功能" />
     <MESSAGE value="实现了只能有一个toast的功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现了只能有一个toast的功能" />
+    <MESSAGE value="解决currentToast的一个bug" />
+    <MESSAGE value="实现进入动画" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现进入动画" />
   </component>
   <component name="WindowStateProjectService">
     <state x="395" y="91" key="#Inspections" timestamp="1607920209332">
@@ -372,10 +386,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="526" y="202" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1608118076446" />
-    <state x="423" y="114" key="SettingsEditor" timestamp="1607839395376">
+    <state x="423" y="114" key="SettingsEditor" timestamp="1608880012504">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="423" y="114" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1607839395376" />
+    <state x="423" y="114" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1608880012504" />
     <state x="814" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1607944858500">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

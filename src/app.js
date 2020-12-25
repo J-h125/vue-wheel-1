@@ -40,9 +40,18 @@ new Vue({
 
     },
     methods:{
-       showToast(){
+        showToast1(){
+            this.showToast('top')
+        },
+        showToast2(){
+            this.showToast('bottom')
+        },
+        showToast3(){
+            this.showToast('middle')
+        },
+       showToast(position){
            this.$toast('有一条message',{
-               position:'top',
+               position,
                enableHtml: false,
                closeButton: {
                    text:'知道了',
