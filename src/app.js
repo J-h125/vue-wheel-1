@@ -42,7 +42,7 @@ new Vue({
     methods:{
        showToast(){
            this.$toast('有一条message',{
-               position:'middle',
+               position:'top',
                enableHtml: false,
                closeButton: {
                    text:'知道了',
