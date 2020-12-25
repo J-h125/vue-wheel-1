@@ -37,29 +37,22 @@ new Vue({
         message : 'hi'
     },
     created(){
-        this.$toast('有一条message',{
-            position:'middle',
-            enableHtml: false,
-            closeButton: {
-                text:'知道了',
-                callback(){
-                    console.log('用户已收到,已关闭')
-                }
-            },
-            autoClose: true,
-            autoCloseDelay: 3,
-        })
+
     },
     methods:{
        showToast(){
-           // this.$toast('message',{ closeButton: {
-           //         text: '知道了',
-           //         callback(toast){
-           //             toast.log()
-           //             console.log('用户说知道了')
-           //         }
-           //     }
-           // })
+           this.$toast('有一条message',{
+               position:'middle',
+               enableHtml: false,
+               closeButton: {
+                   text:'知道了',
+                   callback(){
+                       console.log('用户已收到,已关闭')
+                   }
+               },
+               autoClose: true,
+               autoCloseDelay: 3,
+           })
        }
     }
 })
