@@ -37,8 +37,17 @@ new Vue({
         message : 'hi'
     },
     created(){
-        this.$toast('很多字很多字很多字很多字很多字很多字很多字很多字很多字很多字很多字很多字很多字很多字很多字很多字很多字',{
-            enableHtml: false
+        this.$toast('有一条message',{
+            position:'middle',
+            enableHtml: false,
+            closeButton: {
+                text:'知道了',
+                callback(){
+                    console.log('用户已收到,已关闭')
+                }
+            },
+            autoClose: true,
+            autoCloseDelay: 3,
         })
     },
     methods:{
